@@ -13,7 +13,7 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-
+/*on the browser to redirect to the contact form:http://127.0.0.1:8001/contactform*/
 
 Route::get('/contactform',[ContactController::class,'index']);
 Route::post('/contactform',[ContactController::class,'store'])->name('contact.store');
